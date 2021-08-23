@@ -1,0 +1,28 @@
+@import "variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  font-size: 100%;
+}
+body,
+button,
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.hero__heading,
+.emailInputField {
+  color: $darkGrayishRed;
+}
+// .invalidInputField {
+//   background-image: url(../images/icon-error.svg);
+//   background-repeat: no-repeat;
+//   background-position: calc(100% - 4em);
+//   background-size: 20px;
+// }

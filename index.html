@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#">
+        <img src="./images/logo.svg" alt="Logo" />
+      </a>
+    </nav>
+    <main class="hero">
+      <section class="hero__innerContainer">
+        <h1 class="hero__heading">
+          <span class="highlight">We're</span> coming soon
+        </h1>
+        <p class="hero__text">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form action="" method="POST" id="subscriptionForm">
+          <div class="form__inputGroup">
+            <div class="form__inputGroupFields">
+              <input
+                type="text"
+                placeholder="Email Address"
+                id="email"
+                class="emailInputField"
+              />
+              <button type="submit" class="btn">
+                <img src="./images/icon-arrow.svg" alt="" />
+              </button>
+            </div>
+            <small class="errorMessage hide"></small>
+          </div>
+        </form>
+      </section>
+      <section class="hero_imageContainer">
+        <picture>
+          <source
+            media="(min-width: 700px)"
+            srcset="./images/hero-desktop.jpg"
+          />
+          <img src="./images/hero-mobile.jpg" alt="Hero Image" />
+        </picture>
+      </section>
+    </main>
+    <!-- We're coming soon 
+    
+    Hello fellow shoppers! We're currently building our new
+    fashion store. Add your email below to stay up-to-date with announcements
+    and our launch deals. 
+    
+    Email Address -->
+    <script src="./js/validation.js"></script>
+  </body>
+</html>
